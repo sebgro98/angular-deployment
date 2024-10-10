@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-deployment';
+  title: string = 'Angular Deployment Example';
+  days: number = 0;
 }
